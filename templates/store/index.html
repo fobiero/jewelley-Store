@@ -2,22 +2,22 @@
 
 <!-- HERO SECTION-->
 <div class="container">
-    <section class="hero pb-3 bg-cover bg-center d-flex align-items-center" style="background: url({% static 'img/hero-jewlrey-banner.jpg' %})">
+    <section class="hero pb-3 bg-cover bg-center d-flex align-items-center" style="background: url({% static 'img/hero-banner.jpg' %})">
         <div class="container py-5">
             <div class="row px-4 px-lg-5">
                 <div class="col-lg-6">
-                    <p class="text-muted small text-uppercase mb-2">New Inspiration 2020</p>
-                    <h1 class="h2 text-uppercase mb-3">20% off on new season</h1><a class="btn btn-dark" href="{% url 'store:all-categories' %}">Browse collections</a>
+                    <p class="text-muted small text-uppercase mb-2">New Arrivals</p>
+                    <h1 class="h2 text-uppercase mb-3">15% off discount</h1><a class="btn btn-dark" href="{% url 'store:all-categories' %}">view products </a>
                 </div>
             </div>
         </div>
     </section>
 
+
     <!-- CATEGORIES SECTION-->
     <section class="pt-5">
         <header class="text-center">
-            <p class="small text-muted small text-uppercase mb-1">Carefully created collections</p>
-            <h2 class="h5 text-uppercase mb-4">Browse our categories</h2>
+            <h2 class="h5 text-uppercase mb-4">Check our Stores</h2>
         </header>
         <div class="row">
             {% if categories %} {% for category in categories %}
@@ -41,8 +41,8 @@
     <!-- TRENDING PRODUCTS-->
     <section class="py-5">
         <header>
-            <p class="small text-muted small text-uppercase mb-1">Made the hard way</p>
-            <h2 class="h5 text-uppercase mb-4">Top trending products</h2>
+            <p class="small text-muted small text-uppercase mb-1 text-center">Based on Clients feedback & taste</p>
+            <h2 class="h5 text-uppercase mb-4 text-center">Popular products</h2>
         </header>
         <div class="row">
 
